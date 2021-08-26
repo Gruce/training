@@ -1,21 +1,20 @@
+<form action="#" method="post">
+    <input type="text" name="first_name" placeholder="Your first name"><br />
+
+    <input type="text" name="second_name" placeholder="Your second name"><br />
+
+    <input type="submit" name="send">
+</form>
+
+
 <?php
-    // key => value
-    $human = [
-        'name' => "nooruldeen",
-        'age' => 21,
-        'cars' => [
-            'Kia',
-            'BMW'
-        ],
-    ];
+
+    if (isset($_POST['send'])){
+        $f_name = $_POST['first_name'];
+        $s_name = $_POST['second_name'];
     
-    foreach ($human as $element){
-        if (is_array($element))
-            foreach ($element as $car)
-                echo $car . '<br/>';
-        else
-            echo $element . "<br />";
-        
+        echo $f_name;
+        echo $s_name;
     }
 
 ?>
