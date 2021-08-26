@@ -1,7 +1,7 @@
 <?php
     // key => value
     $human = [
-        'name' => "Mohammed",
+        'name' => "nooruldeen",
         'age' => 25,
         'cars' => [
             'Kia',
