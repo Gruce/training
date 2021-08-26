@@ -2,7 +2,7 @@
     // key => value
     $human = [
         'name' => "Mohammed",
-        'age' => 25,
+        'age' => 21,
         'cars' => [
             'Kia',
             'BMW'
