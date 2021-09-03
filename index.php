@@ -3,6 +3,8 @@
     $human = [
         'name' => "Mohammed",
         'age' => 21,
+        'name' => "nooruldeen",
+        'age' => 25,
         'cars' => [
             'Kia',
             'BMW'
