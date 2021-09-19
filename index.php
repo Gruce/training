@@ -1,22 +1,22 @@
 <?php
     // key => value
     $human = [
-        'name' => "Mohammed",
-        'age' => 21,
-        'name' => "nooruldeen",
+        'name' =>
+        ["Mohammed",'zainab','noor'],
         'age' => 25,
-        'cars' => [
-            'Kia',
-            'BMW'
+        'cars' => 'kia',
+        'dep' => 
+        [
+'bio','math','cs'
         ],
     ];
     
     foreach ($human as $element){
         if (is_array($element))
-            foreach ($element as $car)
-                echo $car . '<br/>';
+            foreach ($element as $names)
+                echo $names . '<br/>';
         else
-            echo $element . "<br />";
+            echo 'none' . "<br />";
         
     }
 
